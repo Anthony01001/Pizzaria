@@ -12,13 +12,8 @@
       margin-right: 0px;
     border-radius: 0px;}
   
-      .pai > div{
-        margin-left: -42px;
-      }.pai{padding: 0px;}
+     .pai{padding: 0px;}
       
-  }
-  @media (max-width: 860px){
-    #sumir{overflow: hidden;}
   }
   *{margin: 0px;
       padding: 0;
@@ -119,39 +114,28 @@
    main > .pai{ border-color: white;
     padding: 15px 0px;
     border-radius: 0px;
-    width: 1045px;
-    height: 450px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vhx;
      background-color: white;
      margin: auto;
   
    }
-   .pai .img{position: absolute;
-    top: 510px;
+   .pai .img{
     margin-left: 0px;
     width: 140px;
-    } .img2{position: absolute;
-      top: 730px;
+    } .img2{
       width: 140px;
-      margin-left: 0px;
     }
    main div{background-color: rgba(12, 12, 12, 0.916);
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     color: white;
-    padding: 5px;
+    padding: 8px;
     border-radius: 15px;
     width: 140px;
-    height: 180px;
     border: 1px solid black;
-    margin-top: 30px;
+    margin-top: 20px;
    } #cp{background: none;
-  margin: 90px auto 0px auto;
-  overflow-y: hidden;
-  padding: 4px;
+  margin: 0px auto;
   width: 110px;
   border-bottom: 2px solid orange;
   }  #c{
