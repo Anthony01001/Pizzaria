@@ -1,77 +1,107 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="Pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Restaurante Pizzaria</title>
-  <style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+       
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
     @import url('https://fonts.googleapis.com/css2? family= Encode+Sans+Semi+Expanded:wght@100 & display=swap');
-
-  </style>
-  <link rel="stylesheet" href="style.css">
+   
+        *{ 
+            color: white;
+        }
+        .order{display: inline-block;
+            text-align: center;
+        width: 130px;
+        height: 200px;
+        background-color: rgb(25, 24, 24);
+        border-radius: 15px;
+        margin-top: 50px;
+        margin-left:50px;
+        }
+        .cardapioimg{transform: translate(0px, -45px);
+            width: 120px;
+        }
+        h3{ margin: -30px auto 0px auto;
+            width: 110px;
+            border-bottom:  2px  solid orange;}
+            p{
+            margin-top: 5px;
+            }
+    </style>
 </head>
 <body>
-  <header>
-    <section class="section1">
-      <div class="grupo1">
-      <img  id="logo" src="otimizado/svgs/LOGO.svg" alt="logo"><p>(43)9999-9999</p>
-    </div>
-    <div class="grupo2">
-      <ul>
-        <nav><li class="li">Home</li></nav>
-        <nav><li>Contato</li></nav>
-        <nav><li>Notícias</li></nav>
-        <nav><li>Quem Somos</li></nav>
-        <nav><li class="ultimo">Cardápio</li></nav>
-      </ul>
-      <img class="horario" src="otimizado/svgs/relógio.svg" alt="Pizza">
-      <h4>Horários:</h4>
-       <p class="f">De Domingo á <br> Domingo: <br>Das 18:30 á <br> 00:00</p>
-    </div> 
-    </section>
-<section class="section2">
-  <img class="primeira-imagem"src="otimizado/pizzas/pngwing.com - 2023-04-26T235006.215.png" alt="Pizza">
-  <h1>A <strong>MELHOR</strong>  E MAIS <br> AUTÊNTICA PIZZARIA <br> ITALIANA DA <strong>REGIÃO!</strong></h1>
-  <nav>
-    <div id="svgs">
-    <img class="sv1" src="otimizado/svgs/facebook.svg" alt="icon">
-    <img class="sv2" src="otimizado/svgs/instagram.svg" alt="icon">
-    <img class="sv3" src="otimizado/svgs/whatsapp.svg" alt="icon">
+    <header>
+    <span>
+    <img src="otimizado/svgs/LOGO.svg" alt="">
+    <p>(48)98780-5643</p>
+</span>
+     <nav>
+        <span>
+            <ul>
+            <li>Home</li>
+            <li>Contato</li>
+            <li>Notícias</li>
+            <li>Quem Somos</li>
+            <Li><a href="main"> Cardápio</a></Li>
+            </ul></span>
+         </nav>
+    <span>
+ <img class="propaganda" src="otimizado/pizzas/pngwing.com - 2023-04-26T235006.215.png" alt=""></span>
+<span class="relogio">
+    <img class="horario" src="otimizado/svgs/relógio.svg" alt="">
+    <h4>Horários:</h4><br<p>18:00h às<br> 00:00h</p>
+</span>
+<span>
+    <h1>A <strong>MELHOR</strong> E MAIS <br> AUTÊNTICA PIZZARIA <br> ITALIANA DA <strong>REGIÃO!</strong> </h1>
+</span>
+</header>
+    <main>
 
-  </div> </nav>
-</section>
-  </header>
- <main>
-  <div class="pai">
-    <div ><img class="img"  src="otimizado/pizzas/pngwing.com - 2023-04-26T235006.215.png" alt="Pizza">
-     <h3 id="cp">Margherita</h3>
-    <p >Queijo, molho de tomate, tomate, azeitona.</p></div>
-    <div  ><img class="img" src="otimizado/pizzas/pngwing.com - 2023-04-30T013832.974.png" alt="Pizza">
-      <h3 id="cp">Capricciosa</h3>
-      <p >Alcachofra,funghi,<br>azeitonas pretas e presunto cru.</p></div>
-    <div ><img class="img" src="otimizado/pizzas/pngwing.com - 2023-04-30T013846.523.png" alt="Pizza">
-      <h3 id="cp">Bianca</h3>
-      <p >Sem queijo e molho de tomate,azeite de oliva e sal grosso.</p></div>
-    <div  ><img class="img" src="otimizado/pizzas/pngwing.com - 2023-04-30T013921.753.png" alt="Pizza">
-      <h3 id="cp">Parmiggiana</h3>
-      <p >Queijo, molho de tomate, tomate, azeitona.</p></div>
-    <div ><img  class="img2" src="otimizado/pizzas/pngwing.com - 2023-04-30T134645.415.png" alt="Pizza">
-      <h3 id="cp">Diavola</h3>
-      <p >Salame picante, azeite picante.</p></div>
-    <div><img class="img2" src="otimizado/pizzas/pngwing.com - 2023-04-30T134803.820.png" alt="Pizza">
-      <h3 id="cp">Stagionl</h3>
-      <p>Azeitonas,alcachofra e cogumelos.</p></div>
-    <div><img  class="img2"src="otimizado/pizzas/pngwing.com - 2023-04-30T134818.391.png" alt="Pizza">
-      <h3 id="cp">Calabresa</h3>
-      <p >calabresa,cebola,<br>azeitona e orégano.</p></div>
-    <div ><img  class="img2"src="otimizado/pizzas/pngwing.com - 2023-04-30T134906.939 (1).png" alt="Pizza">
-      <h3 id="cp">Portuguesa</h3>
-      <p >Mussarela,tomate,<br>cebola,alho,azeite.</p></div>
-  </div>
- 
-  
- </main>
-</body>
+           <span class="order">  <img class="cardapioimg" src="otimizado/pizzas/pngwing.com - 2023-04-26T235006.215.png" alt="">
+            <h3>Margherita</h3>
+        <p>Queijo, molho de tomate, tomate, azeitona.</p>
+ </span> 
+ <span class="order">
+    <img class="cardapioimg" src="otimizado/pizzas/pngwing.com - 2023-04-30T134818.391.png" alt="">
+    <h3>Margherita</h3>
+<p>Queijo, molho de tomate, tomate, azeitona.</p>
+</span>
+          <span  class="order">  
+             <img class="cardapioimg" src="otimizado/pizzas/pngwing.com - 2023-04-26T235006.215.png" alt="">
+            <h3>Calabresa</h3>
+        <p>Queijo, Molho de tomate, Calabresa e Cebola.</p>
+            </span>
+          <span class="order">
+            <img class="cardapioimg" src="otimizado/pizzas/pngwing.com - 2023-04-30T013832.974.png" alt="">
+                <h3>Margherita</h3>
+            <p>Queijo, molho de tomate, tomate, azeitona.</p> </span> 
+        <span class="order">
+            <img class="cardapioimg" src="otimizado/pizzas/pngwing.com - 2023-04-30T013846.523.png" alt="">
+            <h3>Margherita</h3>
+        <p>Queijo, molho de tomate, tomate, azeitona.</p> </span>
+       <span class="order">
+         <img class="cardapioimg" src="otimizado/pizzas/pngwing.com - 2023-04-30T013832.974.png" alt="">
+            <h3>Margherita</h3>
+        <p>Queijo, molho de tomate, tomate, azeitona.</p> </span>
+        
+       <span class="order"> <img class="cardapioimg" src="otimizado/pizzas/pngwing.com - 2023-04-30T134803.820.png" alt="">
+            <h3>Parmiggiana</h3>
+        <p>Molho de tomate,azeite de oliva e sal grosso.</p> </span>
+        <span class="order"> <img class="cardapioimg" src="otimizado/pizzas/pngwing.com - 2023-04-30T134803.820.png" alt="">
+            <h3>Capricciosa</h3>
+        <p>Alcachofra,Funghi,<br>Azeitonas Pretas e Presunto Cru.</p> </span>
+        <span class="order"> <img class="cardapioimg" src="otimizado/pizzas/pngwing.com - 2023-04-30T134818.391.png" alt="">
+            <h3>Stagionl</h3>
+        <p>Azeitonas Pretas, Alcachofra e Cogumelos.</p> </span>
+        <span class="order"> <img class="cardapioimg" src="otimizado/pizzas/pngwing.com - 2023-04-30T134906.939 (1).png" alt="">
+            <h3>Parmiggiana</h3>
+        <p>Molho de tomate,azeite de oliva e sal grosso.</p> </span>
+                            
+</main>
+   </body>
 </html>
